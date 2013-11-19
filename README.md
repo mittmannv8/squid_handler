@@ -1,4 +1,4 @@
-Squid Reports
+Squid Handler
 =============
 
 [![Build Status](https://travis-ci.org/mittmannv8/squid_handler.png?branch=master)](https://travis-ci.org/mittmannv8/squid_reports)
