@@ -1,7 +1,7 @@
 Squid Handler
 =============
 
-s://travis-ci.org/mittmannv8/squid_handler.png?branch=master)](https://travis-ci.org/mittmannv8/squid_handler)[![Build Status](http
+[![Build Status](https://travis-ci.org/mittmannv8/squid_handler.png?branch=master)](https://travis-ci.org/mittmannv8/squid_handler)
 
 
 Squid is a very powerfull proxy and cache system, but it doesn't have a report system for sysadmins or for managers.
