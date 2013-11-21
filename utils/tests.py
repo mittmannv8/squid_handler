@@ -11,7 +11,7 @@ class BaseTestCase(unittest.TestCase):
         self._post_teardown()
 
     def _pre_setup(self):
-        self.app = create_app('settings')
+        self.app = create_app('settings.TestingConfig')
         self.client = self.app.test_client()
         self.ctx = self.app.test_request_context()
         self.ctx.push()

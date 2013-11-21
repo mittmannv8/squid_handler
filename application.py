@@ -4,8 +4,10 @@ from flask import (
         Flask, redirect, url_for, render_template
         )
 from flask.ext.babel import Babel
+from flask.ext.mongokit import MongoKit
 
 babel = Babel()
+db = MongoKit()
 
 # Application Factories: http://flask.pocoo.org/docs/patterns/appfactories/
 def create_app(config_filename):
@@ -15,6 +17,7 @@ def create_app(config_filename):
 
     # Register extensions
     babel.init_app(app)
+    db.init_app(app)
 
     # Import and register blueprints
     from report.app import report_app

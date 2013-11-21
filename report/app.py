@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from flask import Blueprint
 from views import *
+from models import *
 
 # Create report_app as blueprint
 report_app = Blueprint('report_app', __name__)
